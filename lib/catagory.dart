@@ -1,13 +1,5 @@
-import 'package:final_app/catogory/airbuds.dart';
-import 'package:final_app/catogory/cameras.dart';
-import 'package:final_app/catogory/chargers.dart';
-import 'package:final_app/catogory/consoles.dart';
-import 'package:final_app/catogory/earphones.dart';
-import 'package:final_app/catogory/laptops.dart';
-import 'package:final_app/catogory/mobile.dart';
-import 'package:final_app/catogory/powerbank.dart';
-import 'package:final_app/catogory/smartwatches.dart';
-import 'package:final_app/catogory/tablets.dart';
+
+import 'package:final_app/items.dart';
 import 'package:flutter/material.dart';
 
 class Catalog extends StatefulWidget {
@@ -33,15 +25,15 @@ class _CatalogState extends State<Catalog> {
 
   Map itemList = {
     "Mobiles": Mobiles(),
-    "Laptops": laptops(),
-    "Smart Watches": smartWatches(),
-    "Cameras": cameras(),
-    "Consoles": consoles(),
-    "Earphones": earphones(),
-    "Airbuds": airbuds(),
-    "Chargers": chargers(),
-    "Tablets": tablets(),
-    "Powerbanks": powerbanks(),
+    // "Laptops": laptops(),
+    // "Smart Watches": smartWatches(),
+    // "Cameras": cameras(),
+    // "Consoles": consoles(),
+    // "Earphones": earphones(),
+    // // "Airbuds": airbuds(),
+    // "Chargers": chargers(),
+    // "Tablets": tablets(),
+    // "Powerbanks": powerbanks(),
   };
   @override
   Widget build(BuildContext context) {
